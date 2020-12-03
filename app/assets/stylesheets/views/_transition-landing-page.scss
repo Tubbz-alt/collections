@@ -168,13 +168,6 @@ $green: #00703c;
   padding: 0 3px;
 }
 
-.landing-page__page_title {
-  @include govuk-font($size: 48, $weight: bold);
-  color: $dark-blue;
-  margin-top: govuk-spacing(7);
-  margin-bottom: govuk-spacing(4);
-}
-
 .landing-page__translation {
   @include govuk-media-query($from: tablet) {
     float: right;
